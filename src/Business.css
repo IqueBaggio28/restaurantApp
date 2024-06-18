@@ -21,6 +21,7 @@
   
   .Business-information {
     margin-top: 10px;
+    position: relative;
   }
   
   .Business-address p {
@@ -28,10 +29,15 @@
   }
   
   .Business-details {
-    margin-top: 10px;
-    position: relative;
-    left: 75%;
+
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
     line-height: 1rem;
+  }
+
+  .category{
+    text-transform: uppercase;
   }
   
   .Business-details h3 {
